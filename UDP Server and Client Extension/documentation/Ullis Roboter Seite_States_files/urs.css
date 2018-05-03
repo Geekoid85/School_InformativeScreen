@@ -1,0 +1,619 @@
+﻿/*-------------------------------------------------------------*
+ * HTML-Bereich                                                *
+ *-------------------------------------------------------------*/
+html {
+	padding: 0;
+}
+body {
+	font: normal 100.01% Helvetica, Arial, sans-serif;
+	color: black;
+	background-color: white;
+	min-width: 40em; /* Mindestbreite verhindert Anzeigefehler in modernen Browsern */;
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	color: #365F91;
+	page-break-after:avoid;
+}
+h2 {
+	color: #4F81BD;
+	page-break-after:avoid;
+}
+h3 {
+	color: #4F81BD;
+	page-break-after:avoid;
+}
+
+h4 {
+	color: #5F5F5F;
+	page-break-after:avoid;
+}
+
+table{
+	page-break-inside:avoid;
+}
+pre {
+	page-break-inside:avoid; 
+}
+code{
+	page-break-inside:avoid;
+}
+
+/* Text einrücken, Überschriften links */
+body{
+	padding-left:25px
+}
+h1,h2,h3,h4,h5,h6,hr{
+	margin-left:-25px;
+}
+.contents{
+	margin-left:-25px;
+}
+
+
+/* Namen von Variablen, Funktionen, etc. */
+.symbol {
+	font-family: 'Times New Roman';
+	font-weight: bold;
+	font-style: italic;
+}
+
+.symbolNoWrap {
+	font-family: 'Times New Roman';
+	font-weight: bold;
+	font-style: italic;
+	white-space:nowrap;
+	-moz-hyphens: none;
+   -o-hyphens: none;
+   -webkit-hyphens: none;
+   -ms-hyphens: none;
+   hyphens: none;
+}
+
+.noWrap {
+	white-space:nowrap;
+	-moz-hyphens: none;
+   -o-hyphens: none;
+   -webkit-hyphens: none;
+   -ms-hyphens: none;
+   hyphens: none;
+}
+
+
+.hyphenate { 
+   -moz-hyphens: auto;
+   -o-hyphens: auto;
+   -webkit-hyphens: auto;
+   -ms-hyphens: auto;
+   hyphens: auto; 
+}
+
+.nohyphenate { 
+	-moz-hyphens: none;
+   -o-hyphens: none;
+   -webkit-hyphens: none;
+   -ms-hyphens: none;
+   hyphens: none;
+}
+
+
+/* Inhaltsverzeichnis */
+.contents {
+	border: 1px #4F81BD solid;
+	display: inline-block;
+}
+.contentsHead {
+	color: #365F91;
+	font-weight: bold;
+	font-size:130%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+.contentsE1 {
+	color: #4F81BD;
+	font-size:110%;
+	font-weight:bold;
+	margin-left: 10px;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	margin-right: 10px;
+}
+.contentsE2 {
+	color: #4F81BD;
+	margin-left: 25px;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	margin-right: 10px;
+}
+
+.contentsE3 {
+	color: #4F81BD;
+	margin-left: 50px;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	margin-right: 10px;
+}
+
+
+.contents a {
+	color: #4F81BD;
+}
+.overline {
+	text-decoration: overline;
+}
+.bild-im-text {
+	vertical-align: middle;
+	margin: 0px;
+}
+.fancybox img {
+	border-width: 0;
+}
+
+.caption {
+	page-break-after:avoid;
+}
+/*-------------------------------------------------------------*
+ * Listen                                                      *
+ *-------------------------------------------------------------*/
+.ListHeader{ /* Zu verwenden im Paragraph oberhalb der Liste */
+	margin-bottom:0px;
+	page-break-after:avoid;
+}
+.ListBody{ /* Zu verwenden beim <ul>-Tag  */
+	margin-top:3px;
+	margin-left:-20px;
+}
+/* Beispiel
+
+	   <p class="ListHeader" >Überschrift</p>
+	   <ul class="ListBody">
+		   <li>Listenelement</li>
+		   <li>Listenelement</li>
+		   <li>Listenelement</li>
+	   </ul>
+*/
+
+/*-------------------------------------------------------------*
+ * Tabelle für Bilder                                          *
+ *-------------------------------------------------------------*/
+.pictureArray_table {
+	border-style: solid;
+	border-width: 0px;
+	border-collapse: collapse;
+}
+.pictureArray_table td {
+	border-style: solid;
+	border-width: 0px;
+	padding: 5px;
+}
+.pictureArray_table img {
+	border-style: solid;
+	border-width: 0px;
+}
+/*-------------------------------------------------------------*
+ * Auflistungstabelle                                          *
+ *-------------------------------------------------------------*/
+.std_table {
+	border-style: solid;
+	border-width: 1px;
+	border-collapse: collapse;
+	border-spacing: 0px;
+	page-break-inside: avoid;
+}
+.std_table th {
+	border-style: solid;
+	border-width: 1px;
+	border-spacing: 0px;
+	padding: 5px;
+	padding-left: 10px;
+	background-color: #FFFF00;
+	font-weight: bold;
+	font-size: 1.4em;
+}
+.std_table td {
+	border-style: solid;
+	border-width: 1px;
+	padding: 5px;
+	padding-left: 10px;
+	border-spacing: 0px;
+}
+/*-------------------------------------------------------------*
+ * Auflistungstabelle II                                       *
+ *-------------------------------------------------------------*/
+.nice_table {
+	border-width: 0px;
+	border-collapse: collapse;
+	border-spacing: 0px;
+	page-break-inside: avoid;
+}
+.nice_table th {
+	border-style: solid;
+	border-width: 1px;
+	border-spacing: 0px;
+	padding: 5px;
+	padding-left: 10px;
+	background-color: #FFFF00;
+	font-weight: bold;
+	font-size: 1.2em;
+	background-image: url('_grafiken/tab-head.png');
+	background-repeat: repeat-x;
+	text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.9);
+}
+.nice_table td {
+	border-style: solid;
+	border-width: 1px;
+	padding: 5px;
+	padding-left: 10px;
+	border-spacing: 0px;
+}
+.table_headline {
+	/* Zwischenüberschrift */
+	text-align: center;
+	background-color: #C0C0C0;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+/*-------------------------------------------------------------*
+ * tabellierte Tabelle mit Überschrift                         *
+ *-------------------------------------------------------------*/
+.TabTab {
+	border-collapse: collapse;
+	border: 1px solid #4F81B5;
+}
+.TabTab td {
+	border: 1px solid #4F81B5;
+	padding: 5px;
+	padding-left: 10px;
+}
+.TabTab th {
+	border: 1px solid #4F81B5;
+	padding: 5px;
+	padding-left: 10px;
+}
+.TabTab tr:nth-child(even) {
+   background-color: #D3DFEE;
+}
+.TabTab tr:nth-child(odd) {
+   background-color: #FFFFFF;
+}
+.TabTab tr:nth-child(1) {
+   background-color: #548DD4;
+   color:white;
+   font-weight:bold;
+}
+
+/*=============================================================*
+ * Navigationsbereich                                          *
+ *=============================================================*/
+@media screen {
+/*-------------------------------------------------------------*
+ * Bereich "fixiert"                                           *
+ * linke Spalte, Menü                                          *
+ *-------------------------------------------------------------*/
+.menu {
+	position: absolute;
+	top: 0em;
+	left: 0em;
+	width: 260px;
+	height: 100%;
+	background-color: white;
+	overflow: auto;
+	border: 1px solid silver;
+}
+.menu h1 {
+	font-size: 32px;
+	margin: 0.5em;
+	padding: 0.3em;
+	text-align: center;
+	background-color: #fed;
+	border: 2px ridge gray;
+	font-family: Times New Roman,Times,serif;
+	font-style: italic;
+	color: red;
+}
+html > body .menu {
+	/* nur fuer moderne Browser! */
+position: fixed;
+}
+/* ------------------------------------------------------------ */
+/* --- Bereich "Navigation" ----------------------------------- */
+/* --- einzelne Menüzeilen ------------------------------------ */
+/* ------------------------------------------------------------ */
+.Navigation {
+	/* gilt für <ul> */
+margin: 0 0 1.2em;
+	padding: 0;
+}
+.Navigation li {
+	list-style: none;
+	padding: 0.2em;
+}
+ul.Navigation a {
+	display: block;
+	padding: 0.2em;
+	font-weight: bold;
+}
+/* Mousefunktionen */
+ul.Navigation a:link {
+	color: black;
+	background-color: #eee;
+}
+ul.Navigation a:visited {
+	color: #666;
+	background-color: #eee;
+}
+ul.Navigation a:hover {
+	color: black;
+	background-color: white;
+}
+ul.Navigation a:active {
+	color: white;
+	background-color: gray;
+}
+.HauptPunkt {
+	font-size: 1.2em;
+	font-style: italic;
+}
+.UnterPunkt {
+	font-size: 0.8em;
+	margin-left: 2em;
+}
+.UnterPunkt2 {
+	font-size: 0.8em;
+	margin-left: 4em;
+}
+}
+/* media screen */
+
+@media print{
+/*-------------------------------------------------------------*
+ * Bereich "fixiert"                                           *
+ * linke Spalte, Menü                                          *
+ *-------------------------------------------------------------*/
+.menu {
+	position: absolute;
+	top: 0em;
+	left: 0em;
+	width: 0px;
+	height: 0%;
+	background-color: white;
+	overflow: hidden;
+	border: 0px solid silver;
+}
+.menu h1 {
+	font-size: 32px;
+	margin: 0.5em;
+	padding: 0.3em;
+	text-align: center;
+	background-color: #fed;
+	border: 2px ridge gray;
+	font-family: Times New Roman,Times,serif;
+	font-style: italic;
+	color: red;
+}
+/* ------------------------------------------------------------ */
+/* --- Bereich "Navigation" ----------------------------------- */
+/* --- einzelne Menüzeilen ------------------------------------ */
+/* ------------------------------------------------------------ */
+.Navigation {
+	/* gilt für <ul> */
+margin: 0 0 1.2em;
+	padding: 0;
+}
+.Navigation li {
+	list-style: none;
+	padding: 0.2em;
+}
+ul.Navigation a {
+	display: block;
+	padding: 0.2em;
+	font-weight: bold;
+}
+.HauptPunkt {
+	font-size: 1.2em;
+	font-style: italic;
+}
+.UnterPunkt {
+	font-size: 0.8em;
+	margin-left: 2em;
+}
+.UnterPunkt2 {
+	font-size: 0.8em;
+	margin-left: 4em;
+}
+}
+/* @media print */
+/* ------------------------------------------------------------ */
+/* --- Bereich "Projekt" -------------------------------------- */
+/* --- Kopzeile, fixiert am oberen Rand ----------------------- */
+/* ------------------------------------------------------------ */
+@media screen {
+#Projekt {
+	margin-left: 241px;
+	margin-bottom: 0px;
+	padding: 10px 1em;
+	height: 40px;
+	background-color: #fed;
+	border: 2px ridge gray;
+	text-align: left;
+	font-family: Comic Sans MS;
+	font-size: 24px;
+	font-weight: bold;
+	min-width: 40em;
+}
+#UllisSite {
+	display: none;
+}
+}
+/* @media screen */
+@media print {
+#Projekt {
+	margin: 0px 0px 0px 0px;
+	padding: 5px 0px 0px 5px;
+	height: 95px;
+	background-color: #fed;
+	border: 2px ridge gray;
+	text-align: center;
+}
+#UllisSite {
+	margin:  0px 0px 0px -15px;
+	padding: 5px 0px 0px 5px;
+	text-align: center;
+	height: 95px;
+	vertical-align: middle;
+	display: table-cell;
+	font-family: Times New Roman,Times,serif;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 24px;
+	color: red;
+	float: left;
+	width: 190px;
+	background-color: #fed;
+	border: 2px ridge gray;
+}
+#UllisSite img {
+	float: left;
+}
+.ProjectTitle {
+	font-family: Comic Sans MS;
+	font-size: 24px;
+	font-weight: bold;
+	height: 95px;
+	vertical-align: middle;
+	display: table-cell;
+	padding-left: 10px;
+}
+}
+/* @media print */
+/* ------------------------------------------------------------ */
+/* --- Bereich "Inhalt" --------------------------------------- */
+/* ------------------------------------------------------------ */
+@media screen {
+#Inhalt {
+	margin-left: 261px;
+	padding: 0 1em;
+}
+#Search {
+	width: 230px;
+}
+}
+/* @media screen */
+@media print {
+#Inhalt {
+	margin-left: 0px;
+	padding: 0 1em;
+}
+#Search {
+	width: 0px;
+	height: 0px;
+}
+a:link {
+	color: inherit;
+	background-color: inherit;
+	font-style: inherit;
+	font-variant: inherit;
+	text-decoration: inherit;
+}
+a:visited {
+	color: inherit;
+	background-color: inherit;
+	font-style: inherit;
+	font-variant: inherit;
+	text-decoration: inherit;
+}
+.PrinterInvisible {
+	display: none;
+}
+}
+/* @media print */
+/* ------------------------------------------------------------ */
+/* --- Bereich "Projektliste" --------------------------------- */
+/* ------------------------------------------------------------ */
+.ProjektListe {
+	font-family: "Comic Sans MS";
+	font-size: xx-large;
+	font-weight: bold;
+	color: maroon;
+	text-align: left;
+	margin: 0px;
+	margin-bottom: 12px;
+	margin-left: 80px;
+}
+.ProjektUnterListe {
+	font-size: x-large;
+	font-weight: bold;
+	font-family: "Comic Sans MS";
+	margin-left: 100px;
+}
+/* ------------------------------------------------------------ */
+/* --- Bereich "Code"   --------------------------------------- */
+/* --- spezielle Formatierungen für Code ---------------------- */
+/* ------------------------------------------------------------ */
+#Code {
+	font-family: monospace;
+	font-size: 1.0em;
+	color: black;
+}
+#Code i {
+	color: blue;
+	font-style: normal;
+}
+/* Schlüsserworte */
+#Code b {
+	color: green;
+	font-weight: normal;
+}
+/* Kommentare     */
+#Code u {
+	color: red;
+	text-decoration: none;
+}
+/* Assembler-Direktiven */
+pre {
+	font-family : Andale Mono, Lucida Console, Monaco, fixed, monospace;
+	color : #000;
+	background-color : #eee; 
+	font-size : 11px;
+	border : 1px dashed #23A367;
+	line-height : 14px;
+	padding : 5px;
+	overflow : auto; 
+	width : 100%;
+	text-indent : 0px;
+}
+
+.CodeLineNo {
+	color:maroon;
+}
+.CodeUserInput {
+	font-weight:bold;
+	color:navy
+
+}
+/*-------------------------------------------------------------*
+ * Für Hinweis: zuletzt geändert                               *
+ *-------------------------------------------------------------*/
+@media screen {
+#updateDate {
+	margin-left: 228px;
+	padding-top: 5px;
+	padding-left: 1.5em;
+	text-align: left;
+	font-size: 0.7em;
+	cursor: url(_grafiken/Printer16.png), pointer;
+}
+}
+/* @media screen */
+@media print {
+#updateDate {
+	margin-left: -29px;
+	padding-top: 5px;
+	padding-left: 1.5em;
+	text-align: left;
+	font-size: 0.7em;
+}
+}
+/* @media print */

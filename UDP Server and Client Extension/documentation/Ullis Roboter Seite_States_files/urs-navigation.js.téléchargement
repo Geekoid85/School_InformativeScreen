@@ -1,0 +1,314 @@
+/*---------------------------------------------------*
+ * I2C-Menü                                          *
+ *---------------------------------------------------*/
+i2cMenu = ""
++"<li class='UnterPunkt'><a href='i2c-werkstatt.html'>I&sup2;C-Werkstatt</a></li>"
++"<li class='UnterPunkt'><a href='i2c-slave-v2.html'>I&sup2;C-Slave</a></li>"
++"<li class='UnterPunkt'><a href='i2c-bootloader-v3.html'>I&sup2;C-Bootloader</a></li>"
++"<li class='UnterPunkt'><a href='i2c-pc-adapter.html'>I&sup2;C-PC-Adapter</a></li>"
++"<li class='UnterPunkt'><a href='i2c-bus.html'>I&sup2;C-Bus</a></li>"
++"<li class='UnterPunkt'><a href='i2c-evaluationsboard.html'>Evaluationsboard-Stecker</a></li>"
+;
+
+/*---------------------------------------------------*
+ * AVR-Menü                                          *
+ *---------------------------------------------------*/
+avrMenu = ""
++"<li class='UnterPunkt'><a href='avr-progadapter.html'>ISP-Adapter</a></li>"
++"<li class='UnterPunkt'><a href='avr-quarzadapter.html'>Quarz-Adapter</a></li>"
++"<li class='UnterPunkt'><a href='avr-ledadapter.html'>LED-Adapter</a></li>"
++"<li class='UnterPunkt'><a href='i2c-evaluationsboard.html'>Evaluationsboard-Stecker</a></li>"
++"<li class='UnterPunkt'><a href='avr-aufkleber.html'>Aufkleber</a></li>"
++"<li class='UnterPunkt'><a href='avr-studio-keywords.html'>AVR-Studio: Keywords f&auml;rben</a></li>"
++"<li class='UnterPunkt'><a href='avr-studio-5.html'>AVR-Studio 5/6/7</a></li>"
++"<li class='UnterPunkt'><a href='avr-helferlein.html'>Helferlein</a>"
++"  <ul>"
++"    <li><a href='avrs5-inc-version.html'>Build-Nummer</a></li>"
++"    <li><a href='avrs5-progsettings.html'>Programming</a></li>"
++"  </ul>"
++"</li>"
++"<li class='UnterPunkt'><a href='avr-rccalib.html'>RC-Oszillator kalibrieren</a></li>"
++"<li class='UnterPunkt'><a href='avr-advent.html'>Adventslicht</a></li>"
++"<li class='UnterPunkt'><a href='avr-anatomie.html'>C-Anatomie</a></li>"
++"<li class='UnterPunkt'><a href='avr-register.html'>Speicherklasse 'register'</a></li>"
++"<li class='UnterPunkt'><a href='avr-formeln.html'>Formeln</a></li>"
++"<li class='UnterPunkt'><a href='avr-touchsensor.html'>Touch-Sensor</a></li>"
++"<li class='UnterPunkt'><a href='avr-vcc-messen.html'>VCC messen</a></li>"
++"<li class='UnterPunkt'><a href='avr-melodie.html'>Melodien spielen</a></li>"
++"<li class='UnterPunkt'><a href='avr-libs.html'>Bibliothek</a>"
++"  <ul>"
++"    <li><a href='avr-libs-usart.html'>USART</a></li>"
++"    <li><a href='avr-libs-susat.html'>SUSAT</a></li>"
++"    <li><a href='i2c-slave-v2.html'>USI-I&sup2;C-Slave</a></li>"
++"    <li><a href='avr-libs-adc-timing.html'>ADC-Timing</a></li>"
++"    <li><a href='avr-libs-adc.html'>ADC</a></li>"
++"  </ul>"
++"</li>"
+;
+
+/*---------------------------------------------------*
+ * USB-Menü                                          *
+ *---------------------------------------------------*/
+usbMenu = ""
++"<li class='UnterPunkt'><a href='usb-werkstatt.html'>USB-Werkstatt</a></li>"
++"<li class='UnterPunkt'><a href='usb-adapter.html'>Steckbrett-Adapter</a></li>"
++"<li class='UnterPunkt'><a href='usb-12-bit-io.html'>USB-12-Bit-IO</a></li>"
+;
+
+/*---------------------------------------------------*
+ * Arduino-Menü                                          *
+ *---------------------------------------------------*/
+arduinoMenu = ""
++"<li class='UnterPunkt'><a href='arduino-was-geht-II.html'>Was geht II</a></li>"
++"<li class='UnterPunkt'><a href='arduino-avrstudio.html'>im ATMEL-Studio</a></li>"
++"<li class='UnterPunkt'><a href='arduino-turbo.html'>Turbo</a></li>"
++"<li class='UnterPunkt'><a href='arduino-digispark.html'>Digispark Bootloader</a></li>"
++"<li class='UnterPunkt'><a href='arduino-anatomie.html'>Anatomie</a>"
++"  <ul>"
++"    <li><a href='arduino-class-print.html'>Klasse Print</a></li>"
++"    <li><a href='arduino-class-printable.html'>Klasse Printable</a></li>"
++"    <li><a href='arduino-class-stream.html'>Klasse Stream</a></li>"
++"    <li><a href='arduino-class-hardwareserial.html'>Klasse HardwareSerial</a></li>"
++"    <li><a href='arduino-wifi.html'>WiFi-Klassen (ESP8266)</a></li>"
++"    <li><a href='esp8266-EEPROM.html'>EEPROM (ESP8266)</a></li>"
+
++"  </ul>"
++"</li>"
++"<li class='UnterPunkt'><a href='arduino-tipps.html'>Tipps & Tricks</a></li>"
++"<li class='UnterPunkt'><a href='arduino-faq.html'>Arduino FAQ</a></li>"
++"<li class='UnterPunkt'><a href='esp8266-strom.html'>ESP8266 Stromaufnahme</a></li>"
++"<li class='UnterPunkt'><a href='esp8266-faq.html'>ESP8266 FAQ</a></li>"
++"<li class='UnterPunkt'><a href='arduino.html#esplib'>ESP8266 Library</a>"
++"  <ul>"
++     "<li><a href='esp8266-timing.html'>Timing</a></li>"
++     "<li><a href='esp8266-webserver-klasse.html'>WebServer</a></li>"
++     "<li><a href='esp8266-adc.html'>UrsADC</a></li>"
++     "<li><a href='esp8266-ota.html'>UrsOTA</a></li>"
++     "<li><a href='esp8266-wifiserial.html'>UrsWiFiSerial</a></li>"
++     "<li><a href='esp8266-udpserial.html'>UrsUdpSerial</a></li>"
++     "<li><a href='esp8266-settings.html'>UrsSettings</a></li>"
++     "<li><a href='esp8266-UrsDummyPrint.html'>UrsDummyPrint</a></li>"
++     "<li><a href='esp8266-UrsWiFi.html'>UrsWiFi</a></li>"
++     "<li><a href='esp8266-stringstream.html'>UrsStringStream</a></li>"
++     "<li><a href='esp8266-UrsTime.html'>UrsTime</a></li>"
++     "<li><a href='esp8266-asyncwebserver.html'>UrsAsyncWebServer</a></li>"
++     "<li><a href='esp8266-ADS1x15.html'>UrsAds1x15</a></li>"
++     "<li><a href='esp8266-UrsTwi.html'>UrsTwi</a></li>"
++     "<li><a href='esp8266-Wemo-Emu.html'>Wemo-Switch</a></li>"
++"  </ul>"
++"</li>"
+
+;
+
+/*---------------------------------------------------*
+ * NXT-Menü                                          *
+ *---------------------------------------------------*/
+nxtMenu = ""
++"<li class='UnterPunkt'><a href='nxt-steckbrett.html'>Steckbrett Adapter</a></li>"
++"<li class='UnterPunkt'><a href='nxt-kabeltester.html'>NXT-Kabeltester</a></li>"
++"<li class='UnterPunkt'><a href='nxt-laser.html'>Laser</a></li>"
++"<li class='UnterPunkt'><a href='nxt-srf02.html'>SRF02</a></li>"
++"<li class='UnterPunkt'><a href='nxt-servo.html'>Servo</a></li>"
++"<li class='UnterPunkt'><a href='nxt-spannung.html'>Spannungsverl&auml;ufe</a></li>"
++"<li class='UnterPunkt'><a href='nxt-dimension.html'>Abmessungen</a></li>"
++"<li class='UnterPunkt'><a href='nxt-bluetooth.html'>Bluetooth</a></li>"
++"<li class='UnterPunkt'><a href='nxt-sensor-anatomie.html'>Sensor-Anatomie</a></li>"
+;
+
+/*---------------------------------------------------*
+ * Projekte-Menü                                     *
+ *---------------------------------------------------*/
+projekteMenu = ""
++"<li class='UnterPunkt'><a href='mf70.html'>CNC-Fr&auml;se</a></li>"
+//+"<li class='UnterPunkt'><a href='projekte-propeller-clock.html'>Propeller Clock</a></li>"
++"<li class='UnterPunkt'><a href='projekte-rasenmae.html'>Autonomer Rasenm&auml;her</a>"
++"  <ul>"
++"     <li><a href='projekte-gps.html'>GPS</a></li>"
++"     <li><a href='i2c-bus.html'>I2C-Bus</a></li>"
++"     <li><a href='projekte-regensensor.html'>Regensensor</a></li>"
++"     <li><a href='projekte-laderegler.html'>Laderegler</a></li>"
++"  </ul>"
++"</li>"
++"<li class='UnterPunkt'><a href='projekte-gewaechshaus.html'>Gew&auml;chshausl&uuml;ftung</a></li>"
++"<li class='UnterPunkt'><a href='projekte-teedipper.html'>Tee-Dipper</a></li>"
++"<li class='UnterPunkt'><a href='projekte-haus.html'>Haus-Automatisierung</a>"
++"  <ul>"
++"     <li><a href='projekte-haus-sunny.html'>Solar-Anlage auslesen</a></li>"
++"     <li><a href='projekte-haus-stromzaehler.html'>Stromz&auml;hler auslesen</a></li>"
++"     <li><a href='projekte-haus-wetter.html'>Wetter Server</a></li>"
++"     <li><a href='eps8266-energy-meter.html'>ESP8266 Energiemessger&auml;t</a></li>"
++"  </ul>"
++"</li>"
+
+;
+
+/*---------------------------------------------------*
+ * Ideen-Menü                                        *
+ *---------------------------------------------------*/
+ideenMenu = ""
++"<li class='UnterPunkt'><a href='ideen-xyz.html'>XYZ</a></li>"
++"<li class='UnterPunkt'><a href='ideen-seriell-lcd.html'>Serielles LCD</a></li>"
++"<li class='UnterPunkt'><a href='ideen-phased-array-sonar.html'>Phased Array Sonar</a></li>"
++"<li class='UnterPunkt'><a href='ideen-wlan-steckdose.html'>WLAN-Steckdose</a></li>"
++"<li class='UnterPunkt'><a href='ideen-filament-counter.html'>Filament Counter</a></li>"
++"<li class='UnterPunkt'><a href='ideen-andere.html'>Geistesblitze</a></li>"
+;
+/*---------------------------------------------------*
+ * Raspberry-Menü                                        *
+ *---------------------------------------------------*/
+raspMenu = ""
++"<li class='UnterPunkt'><a href='rasp-conf-net.html'>WLAN & Dienste</a></li>"
++"<li class='UnterPunkt'><a href='rasp-inst-java.html'>Java & IDE</a></li>"
++"<li class='UnterPunkt'><a href='rasp-SD-Utility.html'>Datensicherung</a></li>"
++"<li class='UnterPunkt'><a href='rasp-c-berry.html'>C-Berry Touch</a></li>"
++"<li class='UnterPunkt'><a href='rasp-java-native.html'>JAVA native Bibliothek</a></li>"
++"<li class='UnterPunkt'><a href='rasp-faq.html'>Tipps</a></li>"
+;
+
+/*---------------------------------------------------*
+ * Und Sonst-Menü                                    *
+ *---------------------------------------------------*/
+undsonstMenu = ""
++"<li class='UnterPunkt'><a href='undsonst-tippsundtricks.html'>Tipps und Tricks</a></li>"
++"<li class='UnterPunkt'><a href='undsonst-cmd.html'>Windows Batch</a></li>"
++"<li class='UnterPunkt'><a href='undsonst-web.html'>Tipps zum Spinnen</a></li>"
++"<li class='UnterPunkt'><a href='undsonst-web-controls.html'>WEB-Controls</a></li>"
++"<li class='UnterPunkt'><a href='undsonst-pcb.html'>Toner-Transfer-Methode</a></li>"
++"<li class='UnterPunkt'><a href='undsonst-logicanalyzer.html'>Simple Logic Analyser</a></li>"
++"<li class='UnterPunkt'><a href='undsonst-colorizer.html'>Colorizer</a></li>"
++"<li class='UnterPunkt'><a href='undsonst-wortuhr.html'>Wortuhr</a></li>"
++"<li class='UnterPunkt'><a href='undsonst-vnm.html'>Nutzlose Maschine</a></li>"
++"<li class='UnterPunkt'><a href='undsonst-eagle.html'>Eagle-Lbr</a></li>"
++"<li class='UnterPunkt'><a href='undsonst-boards.html'>Boards-Doku</a></li>"
++"<li class='UnterPunkt'><a href='undsonst-nanoquadrocopter.html'>Nano Quadrocopter</a></li>"
+;
+
+/*---------------------------------------------------*
+ * Gescheitertes-Menü                                *
+ *---------------------------------------------------*/
+gescheitertesMenu = ""
++"<li class='UnterPunkt'><a href='color.html'>color</a></li>"
++"<li class='UnterPunkt'><a href='gescheitert-wemo-solar.html'>Wemos Solar</a></li>"
++"<li class='UnterPunkt'><a href='android-AI2-UDP.html'>AI2 UDP Extension</a></li>"
+;
+
+/*---------------------------------------------------*
+ * Android-Menü                                      *
+ *---------------------------------------------------*/
+androidMenu = ""
++"<li class='UnterPunkt'><a href='android-wifi.html'>WiFi</a></li>"
++"<li class='UnterPunkt'><a href='android-states.html'>Zust&auml;nde</a></li>"
++"<li class='UnterPunkt'><a href='android-AI2-UDP.html'>AI2 UDP Extension</a></li>"
+;
+
+/*---------------------------------------------------*
+ * 3D-Druck-Menü                                     *
+ *---------------------------------------------------*/
+druckMenu = ""
++"<li class='UnterPunkt'><a href='3d-kuehler-umbau.html'>K&uuml;hler-Umbau</a></li>"
++"<li class='UnterPunkt'><a href='3d-laschen.html'>Anti-Warping</a></li>"
++"<li class='UnterPunkt'><a href='3d-nuetzliches.html'>N&uumltzliches</a></li>"
+;
+
+
+/*---------------------------------------------------*
+ * .NET-Menü                                         *
+ *---------------------------------------------------*/
+DotNetMenu = ""
++"<li class='UnterPunkt'><a href='dotnet-vbtermie.html'>VBTermie</a></li>"
++"<li class='UnterPunkt'><a href='dotnet-app-msg.html'>VB App-Nachrichten</a></li>"
++"<li class='UnterPunkt'><a href='dotnet-local-msg.html'>Systemtexte auslesen</a></li>"
++"<li class='UnterPunkt'><a href='dotnet-sleep.html'>DOS-Kommando Sleep</a></li>"
++"<li class='UnterPunkt'><a href='dotnet-hostname.html'>Verbindung per Hostname</a></li>"
++"<li class='UnterPunkt'><a href='dotnet-ftdichk.html'>FTDI-Check</a></li>"
++"<li class='UnterPunkt'><a href='dotnet-commandline.html'>Kommandozeilenanzeige</a></li>"
++"<li class='UnterPunkt'><a href='dotnet-localize-doc.html'>Hilfe lokalisieren</a></li>"
++"<li class='UnterPunkt'><a href='dotnet-logging.html'>Logging</a></li>"
++"<li class='UnterPunkt'><a href='dotnet-listsysteminfo.html'>List SystemInfo</a></li>"
++"<li class='UnterPunkt'><a href='dotnet-faq.html'>.NET-Tipps (FAQ)</a></li>"
++"<li class='UnterPunkt'><a href='dotnet-lib.html'>UrsLibrary</a></li>"
++" <ul>"
++"    <li class='UnterPunkt'><a href='dotnet-scaledpicturebox.html'>ScaledPictureBox</a></li>"
++"    <li class='UnterPunkt'><a href='dotnet-msgboxex.html'>ExtendedMsgBox</a></li>"
++"    <li class='UnterPunkt'><a href='dotnet-sevenseg.html'>7-Segment-Display</a></li>"
++"    <li class='UnterPunkt'><a href='dotnet-verticallabel.html'>Vertical Label</a></li>"
++"    <li class='UnterPunkt'><a href='dotnet-bitinput.html'>Bit Input</a></li>"
++"    <li class='UnterPunkt'><a href='dotnet-random.html'>Random Extension</a></li>"
++"    <li class='UnterPunkt'><a href='dotnet-hsv.html'>Farbraum HSV</a></li>"
++"    <li class='UnterPunkt'><a href='dotnet-progressbar.html'>ProgressBar</a></li>"
++"    <li class='UnterPunkt'><a href='dotnet-description-attribute.html'>Lokalisierte Attribute</a></li>"
++"    <li class='UnterPunkt'><a href='dotnet-extendedpanel.html'>ExtendedPanel</a></li>"
++"    <li class='UnterPunkt'><a href='dotnet-verticalgauge.html'>Vertical Gauge</a></li>"
++"    <li class='UnterPunkt'><a href='dotnet-displaynameattribute.html'>Benutzerfreundliche Enums</a></li>"
++"    <li class='UnterPunkt'><a href='dotnet-led.html'>LED</a></li>"
+" </ul>"
+;
+
+
+function generateMainMenuEntry(label, link, subMenu)
+{ htmlcode  = "<ul class='Navigation'>"
+  htmlcode += "  <li class='HauptPunkt'><a href='"+ link + "'>" + label + "</a></li>"
+  htmlcode += subMenu;
+  htmlcode += "</ul>"
+
+  return htmlcode;
+}
+
+function generateMenu(menuClass)
+{ htmlcode = ""
+   + "<small>&nbsp;&Uuml;ber Anregungen und Fragen freue <br>&nbsp;ich mich: "
+   +"<a href='&#109;&#097;&#105;&#108;&#116;&#111;&#058;&#098;&#105;&#101;&#110;&#111;&#110;&#108;&#105;&#110;&#101;&#064;&#103;&#109;&#120;&#046;&#100;&#101;'>"
+   +"E-Mail an Ulli</a>"
+   +"</small><br><br>"
++ generateMainMenuEntry("NXT",             "nxt.html",          (menuClass  == "nxt")?           nxtMenu : "")
++ generateMainMenuEntry("I&sup2;C",        "i2c.html",          (menuClass  == "i2c")?           i2cMenu : "")
++ generateMainMenuEntry("DotNet",          "dotnet.html",       (menuClass  == "dotnet")?        DotNetMenu : "")
++ generateMainMenuEntry("AVR",             "avr.html",          (menuClass  == "avr")?           avrMenu : "")
++ generateMainMenuEntry("Arduino/ESP8266", "arduino.html",      (menuClass  == "arduino")?       arduinoMenu : "")
++ generateMainMenuEntry("Android",         "android.html",      (menuClass  == "android")?       androidMenu : "")
++ generateMainMenuEntry("Raspberry Pi",    "rasp.html",         (menuClass  == "rasp")?          raspMenu : "")
++ generateMainMenuEntry("USB",             "usb.html",          (menuClass  == "usb")?           usbMenu : "")
++ generateMainMenuEntry("Projekte",        "projekte.html",     (menuClass  == "projekte")?      projekteMenu: "")
++ generateMainMenuEntry("3D-Druck",        "3D.html",           (menuClass  == "druck3d")?       druckMenu: "")
++ generateMainMenuEntry("Ideen",           "ideen.html",        (menuClass  == "ideen")?         ideenMenu: "")
++ generateMainMenuEntry("... und sonst",   "undsonst.html",     (menuClass  == "undsonst")?      undsonstMenu: "")
++ generateMainMenuEntry("Gescheitertes",   "gescheitert.html",  (menuClass  == "gescheitertes")? gescheitertesMenu : "")
+;
+
+return htmlcode;
+}
+
+// Menü und weitere Standard-Elemente in die Seite einbinden 
+document.write("<h1><a href='index.html'>Ullis Roboter Seite</a></h1>"
+             + "<a href='https://paypal.me/UllisRoboterSeite/5' target='_blank'>"
+             +    "<img alt='Paypal Donate' src='_grafiken/donate.jpg' width='200' title='Ullis Roboter Seite unterst&uuml;tzen'"
+			 +       "style='margin-left:20px'></a>"
+             + "<div id='Search' style='width: 230px; margin: 0px; border: 0px'>"
+             + "<gcse:search></gcse:search></div>");
+document.write(generateMenu(document.getElementById("menuscript").className));
+document.write("&nbsp;<a href='impressum.html'>Impressum</a> <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+             + "<a href='http://www.andyhoppe.com/' title='Counter'>"
+             + "<img alt='Counter' src='http://www.andyhoppe.com/count/?id=1257100241' style='border: medium none;'></a><br><br>");
+
+    (function() {
+    var cx = '001794331095643696997:wgwxbmtwmne';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-73617935-1', 'auto');
+  ga('send', 'pageview');
+
+
+InitSnappedTextStandard(); // Text-Elemente mit Auf/Zuklapp-Funktion intialisieren
+                           // Zum Schluss, falls die .js nicht eingebunden ist

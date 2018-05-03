@@ -1,0 +1,17 @@
+﻿  $(document).ready
+  ( function()
+    { /* Simple image gallery. Uses default settings */
+      $('.fancybox').fancybox();
+
+      /* Change title type, overlay closing speed */
+	  $(".fancybox-effects-a").fancybox({helpers: {title : {type : 'outside'}, overlay : {speedOut : 0} } });
+
+	  /* Open manually */
+	  $("#fancybox-manual-b").click
+	  ( function()
+	    { $.fancybox.open({href : 'iframe.html', type : 'iframe', padding : 5});
+	    }
+	  );
+
+    }
+  );

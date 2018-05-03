@@ -1,0 +1,80 @@
+﻿/* Siehe http://www.menucool.com/tooltip/css-tooltip */
+
+/*---------------------------------------------*/
+/* Tooltip Light (zur rechten Seite aufblendend)
+/*---------------------------------------------*/
+
+a.tooltip-light-right {outline:none;text-decoration:none;color: blue}
+a.tooltip-light-right strong {line-height:30px;}
+a.tooltip-light-right:hover {text-decoration:none;} 
+a.tooltip-light-right span {
+    z-index:10;display:none; padding:14px 20px;
+    margin-top:-30px; margin-left:28px;
+    width:300px; line-height:16px;
+}
+a.tooltip-light-right:hover span{
+    display:inline; position:absolute; color:#111;
+    border:1px solid #DCA; background:#fffAF0;}
+
+.callout-light {z-index:20;position:absolute;top:30px;border:0;left:-12px;}
+    
+/*CSS3 extras*/
+a.tooltip-light-right span
+{ border-radius:4px;
+  box-shadow: 5px 5px 8px #CCC;
+}
+
+
+/*---------------------------------------------*/
+/* Tooltip Strong (zur rechten Seite aufblendend)
+/*---------------------------------------------*/
+
+a.tooltip-strong-right {outline:none;text-decoration:none;color: blue}
+a.tooltip-strong-right strong {line-height:30px;}
+a.tooltip-strong-right:hover {text-decoration:none} 
+a.tooltip-strong-right span {
+    z-index:10;display:none; padding:14px 20px;
+    margin-top:-30px; margin-left:28px;
+    width:300px; line-height:16px;
+}
+
+a.tooltip-strong-right:hover span{
+    display:inline; position:absolute; color:#EEE;
+    border:2px solid #FFF;
+    background:#333 url(_grafiken/css-tooltip-gradient-bg.png) repeat-x 0 0;
+}
+    
+.callout-strong-right {z-index:20;position:absolute;top:30px;border:0;left:-12px;}
+    
+a.tooltip-strong-right span
+{
+    border-radius:2px;        
+    box-shadow: 0px 0px 8px 4px #666;
+    /*opacity: 0.8;*/
+}
+
+
+/*---------------------------------------------*/
+/* Tooltip Light (nach unten aufblendend)
+/*---------------------------------------------*/
+a.tooltip-strong {outline:none;text-decoration:none;color: blue}
+a.tooltip-strong strong {line-height:30px;}
+a.tooltip-strong:hover {text-decoration:none;} 
+a.tooltip-strong span {
+    z-index:10;display:none; padding:14px 20px;
+    margin-top:60px; margin-left:-160px;
+    width:300px; line-height:16px;
+}
+a.tooltip-strong:hover span{
+    display:inline; position:absolute; 
+    border:2px solid #FFF;  color:#EEE;
+    background:#333 url(_grafiken/css-tooltip-gradient-bg.png) repeat-x 0 0;
+}
+.callout-strong {z-index:20;position:absolute;border:0;top:-14px;left:120px;}
+    
+/*CSS3 extras*/
+a.tooltip-strong span
+{ border-radius:2px;        
+  box-shadow: 0px 0px 8px 4px #666;
+    /*opacity: 0.8;*/
+}

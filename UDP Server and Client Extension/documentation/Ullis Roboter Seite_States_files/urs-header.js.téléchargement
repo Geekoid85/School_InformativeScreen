@@ -1,0 +1,22 @@
+document.write("<div id='UllisSite'><img alt='' src='_grafiken/urs.png'>Ullis Roboter Seite</div>");
+
+
+document.write("<div id='Projekt'><span class='ProjectTitle'>");
+document.write(document.getElementById("urs-header").getAttribute("ProjectTitle"));
+document.write("</span></div>");
+
+document.write("<div id='updateDate'>Zuletzt ge&auml;ndert: ");
+document.write(document.getElementById("urs-header").getAttribute("date"));
+
+document.write("&nbsp;&nbsp;<img alt='Drucken' class='PrinterInvisible' onclick='window.print()' src='_grafiken/Printer10.png' style='vertical-align: middle' title='Seite drucken'>");
+
+var url=window.location.href.replace(/\//g,"%2F").replace(/:/g, "%3A");
+var urlBing = "http://www.microsofttranslator.com/bv.aspx?from=de&to=en&a=" + url
+var urlGoogle = "http://translate.google.de/translate?sl=de&tl=en&ie=UTF-8&u=" + url
+
+document.write("&nbsp;&nbsp;&nbsp;&nbsp;<a target='_blank' class='PrinterInvisible' href='" + urlBing + "'>" 
+              +"<img alt='English translation' height='11' src='_grafiken/flag-britain.png'>&nbsp;&nbsp;English translation by microsofttranslator</a>"
+              + "&nbsp;&nbsp;<a target='_blank' class='PrinterInvisible' href='" + urlGoogle + "'>English translation by google</a>" );
+
+
+document.write("<br></div>");

@@ -1,0 +1,380 @@
+﻿
+@import "MT.css";
+
+html, body, #SandboxFrame
+{
+	width: 100%;
+	height: 100%;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	border: none;
+	display: block;
+}
+
+html, body
+{
+	overflow: auto;
+}
+
+#SandboxFrame
+{
+	min-width: 980px;
+	overflow: visible;
+}
+
+#LogoImage
+{
+	margin-top: 4px;
+}
+
+#PageHeader
+{
+	position: static;
+	width: 99%;
+	color: #FFF;
+	padding-top: 2px;
+}
+
+#PageHeader a
+{
+	color: #FF9933;
+	text-decoration: none;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+#PageContent
+{
+	position: absolute;
+	width: 100%;
+	bottom: 0px;
+}
+
+#spanTrans
+{
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 2px;
+	white-space: nowrap;
+}
+
+/********* crunched images ***********/
+#spanImgGo_ltr a, #spanImgGo_rtl a
+{
+	width: 21px;
+	height: 20px;
+	position: relative;
+	background-image: url(../img/bvpics.gif);
+	top: -3px;
+	display: block;
+}
+
+#spanImgGo_ltr a
+{
+	background-position: 0px 0px;
+}
+
+#spanImgGo_ltr a:hover
+{
+	background-position: -21px 0px;
+}
+
+#spanImgGo_rtl a
+{
+	background-position: -21px 20px;
+}
+
+#spanImgGo_rtl a:hover
+{
+	background-position: 0px -20px;
+}
+
+#HeaderTopRow
+{
+	width: 100%;
+}
+
+#HeaderTopRow TR TD
+{
+	white-space: nowrap;
+}
+
+#spanViews #tdViewsText
+{
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+#spanViews
+{
+	white-space: nowrap; 
+	padding-top: 3px;
+}
+
+#spanViews #tdGotoOriginalLink
+{
+	
+}
+
+#spanViews a
+{
+	display: block;
+	float: inherit;
+	background-image: url(../img/bvpics.gif);
+	width: 25px;
+	height: 20px;
+}
+
+/** SS **/
+#spanViews a.SS_gif
+{
+	background-position: -92px 0px;
+}
+#spanViews a.SS_gif:Hover, #spanViews a.SSon_gif
+{
+	background-position: -92px 20px;
+}
+
+/** TB **/
+#spanViews a.TB_gif
+{
+	background-position: -42px 0px;
+}
+#spanViews a.TB_gif:Hover, #spanViews a.TBon_gif
+{
+	background-position: -42px 20px;
+}
+
+/** SP **/
+#spanViews a.SP_gif
+{
+	background-position: -117px 0px;
+}
+#spanViews a.SP_gif:Hover, #spanViews a.SPon_gif
+{
+	background-position: -117px 20px;
+}
+
+/** TP **/
+#spanViews a.TP_gif
+{
+	background-position: -67px 0px;
+}
+#spanViews a.TP_gif:Hover, #spanViews a.TPon_gif
+{
+	background-position: -67px 20px;
+}
+
+/********* end crunched images ***********/
+
+#aGo
+{
+	margin-top: 6px;
+}
+
+#lblViews
+{
+	vertical-align: middle;
+}
+
+.textHeader
+{
+	font-size: 13px;
+}
+
+.textHeaderBold
+{
+	font-size: 13px;
+	font-weight: bold;
+}
+
+
+
+.titleStatic
+{
+	font-weight: bold;
+}
+.HeaderLink
+{
+	vertical-align: middle;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	border: none 0px #FFF;
+}
+
+.DDL
+{
+	vertical-align: middle;
+}
+
+#divContent
+{
+	margin: 0px 2px 0px 0px;
+	background-color: #ffffff;
+}
+
+#divBVHeader
+{
+	padding-top: 0px;
+	width: 100%;
+}
+
+#formBVHeader
+{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	border: none 0px black;
+	height: 53px;
+}
+
+#dvPageContent
+{
+	min-width: 980px;
+}
+
+#PageHeader a
+{
+	color: #ff9933 ! important;
+}
+
+#dvPageContent a img
+{
+	margin-top: 2px;
+}
+
+#spanHome
+{
+	white-space: nowrap;
+	margin-left: 4px;
+}
+
+#spanLanguageText
+{
+	padding: 4px 4px 4px 4px;
+}
+
+#dvPageContent #spanLanguageText #spnAnim
+{
+	color: Red;
+}
+
+#dvPageContent #spanLanguageText #spanPercent
+{
+	color: Green;
+}
+
+#inpUrl
+{
+	width: 210px;
+	direction: ltr;
+	vertical-align: middle;
+	padding-top: 2px;
+	padding-bottom: 0px;
+	height: 16px;
+	font-size: 11px;
+}
+
+#inpUrlTd
+{
+	padding-top: 0px; 
+	padding-bottom: 0px;
+}
+
+#divBVFooter
+{
+	width: 99%;
+	clear: both;
+	text-align: right;
+	font-weight: 800;
+	bottom: 0;
+}
+
+#divSrc, #divTgt
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+#divSrcHead, #divTgtHead
+{
+	width: 100%;
+	margin: 0px;
+}
+
+.headerFiller
+{
+	width: 10px;
+}
+
+.headerDelimiterBar
+{
+	background-color: #bfe5f1;
+	width: 1px;
+}
+
+#lblBeta
+{
+	color: #FF6633;
+	vertical-align: top;
+	font-size: 11px;
+}
+
+/* iFrame styles */
+#divSrcFrm, #divTgtFrm
+{
+	border: solid 1px #CCCCCC;
+}
+
+#frmSrc, #frmTgt
+{
+	border-right: 0px;
+	border-top: #a9a9a9 1px solid;
+	border-left: 0px;
+	border-bottom: 0px;
+	top: 0px;
+	width: 100%;
+}
+
+.divSrcSS
+{
+	float: left;
+	width: 50%;
+}
+
+.divTgtSS
+{
+	float: right;
+	width: 50%;
+}
+
+.divSrcTB, .divTgtTB, .divXP
+{
+	float: none;
+	width: 100%;
+}
+
+.divXP { } /* SP or TP left blank intentionally */
+.centerHeader {
+    min-width: 450px;
+    text-align: center
+}
+#lblReported {
+    display: none;
+}
+#spnReport {
+    padding-right: 3px;
+}
+
+#bvSecurePageWarning {
+    margin: 0;
+    padding: 0;
+    background: #fff3b5;
+    color: #000;
+    font-family: "Segoe UI","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#bvSecurePageWarning > .bvwarningcontent {
+    padding: 1px 0;
+    font-size: 13px;
+    margin: 0 20px;
+}

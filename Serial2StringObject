@@ -1,0 +1,19 @@
+/* This is a simple example code to help you learn and understand how to read the Serial message send by the esp
+(and by the way the android application) and "convert" it to a String object for easy decoding and interpretation
+which will take place thereafter */
+
+String myMessage = "";
+void setup() {
+  Serial.begin(9600);
+}
+
+void loop() {
+  if (Serial.available()) { // if I receive text on the serial
+    while (Serial.available()) { // While I receive it
+      char i = Serial.read(); // Read it and affect it to a char board
+      myMessage += String(i); // Add it to myMessage String object
+    } // redo this has long has the text is not finished to read.
+    Serial.println(myMessage); // When I finished display it on the serial monitor
+    myMessage = ""; // Reset my string object
+  }
+}
